@@ -19,10 +19,10 @@ jobs:
           repository: sirVascelot/usk
           path: usk
       
-      - name: Checkout sirVascelot/busk
+      - name: Checkout rehius/busk
         uses: actions/checkout@v3
         with:
-          repository: sirVascelot/busk
+          repository: rehius/busk
           path: busk
 
       - name: Checkout raspberrypi/pico-sdk
